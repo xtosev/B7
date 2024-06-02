@@ -1,0 +1,28 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication8.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="background-color: darkblue; width: 100%; height: 30px; padding-bottom: 20px">
+        <h1 style="color: white; padding-left: 50px; line-height: 50px">Biblioteka</h1>
+    </div>
+    <div style="background-color: darkslateblue; height: 50px; line-height: 50px; vertical-align: middle; padding-left: 30px;">
+            <asp:Button ID="Button1" runat="server" Text="Pocetna" style="background-color:inherit; border-color: white; color: white; height: 30px" OnClick="Button1_Click"/>
+            <asp:Button ID="Button2" runat="server" Text="Pregled" style="background-color:inherit; border-color: white; color: white; height: 30px" OnClick="Button2_Click"/>
+            <asp:Button ID="Button3" runat="server" Text="O autoru" style="background-color:inherit; border-color: white; color: white; height: 30px" OnClick="Button3_Click"/>
+            <asp:Button ID="Button4" runat="server" Text="Uputstvo" style="background-color:inherit; border-color: white; color: white; height: 30px" OnClick="Button4_Click"/>
+    </div>
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>

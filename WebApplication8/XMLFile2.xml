@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<korisnici>
+  <korisnik>
+    <ime>Test1</ime>
+    <lozinka>test1123</lozinka>
+  </korisnik>
+  <korisnik>
+    <ime>Test2</ime>
+    <lozinka>test2123</lozinka>
+  </korisnik>
+</korisnici>
